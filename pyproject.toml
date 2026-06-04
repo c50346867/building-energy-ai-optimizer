@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "building-energy-ai-optimizer"
+version = "0.1.0"
+description = "AI-powered building energy prediction and optimization tool"
+readme = "README.md"
+authors = [{ name = "c50346867" }]
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.24.0",
+    "pandas>=2.0.0",
+    "scikit-learn>=1.3.0",
+    "lightgbm>=4.0.0",
+    "xgboost>=2.0.0",
+]

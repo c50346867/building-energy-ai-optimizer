@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="50%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B6B"/>
+      <stop offset="50%" style="stop-color:#4ECDC4"/>
+      <stop offset="100%" style="stop-color:#45B7D1"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B20"/>
+      <stop offset="100%" style="stop-color:#FF6B6B05"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ECDC420"/>
+      <stop offset="100%" style="stop-color:#4ECDC405"/>
+    </linearGradient>
+    <linearGradient id="card3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#45B7D120"/>
+      <stop offset="100%" style="stop-color:#45B7D105"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- 装饰网格 -->
+  <g opacity="0.03">
+    <line x1="0" y1="100" x2="1280" y2="100" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1280" y2="200" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="1280" y2="300" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="400" x2="1280" y2="400" stroke="white" stroke-width="0.5"/>
+    <line x1="0" y1="500" x2="1280" y2="500" stroke="white" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="640" stroke="white" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="640" stroke="white" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="640" stroke="white" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="640" stroke="white" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="640" stroke="white" stroke-width="0.5"/>
+    <line x1="1200" y1="0" x2="1200" y2="640" stroke="white" stroke-width="0.5"/>
+  </g>
+
+  <!-- 顶部装饰线 -->
+  <rect x="0" y="0" width="1280" height="4" fill="url(#accent)"/>
+
+  <!-- 标题区域 -->
+  <text x="80" y="100" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#94a3b8" letter-spacing="3">AI-POWERED BUILDING ENERGY OPTIMIZATION</text>
+
+  <text x="80" y="155" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="bold" fill="white" letter-spacing="-1">
+    Building Energy
+  </text>
+  <text x="80" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="52" font-weight="bold" fill="url(#accent)" letter-spacing="-1">
+    AI Optimizer
+  </text>
+
+  <text x="80" y="260" font-family="system-ui, -apple-system, sans-serif" font-size="18" fill="#94a3b8">
+    建筑能耗预测与智能优化工具
+  </text>
+
+  <!-- 关键词标签 -->
+  <rect x="80" y="285" width="110" height="28" rx="14" fill="#FF6B6B20" stroke="#FF6B6B40" stroke-width="1"/>
+  <text x="135" y="304" font-family="system-ui, sans-serif" font-size="13" fill="#FF6B6B" text-anchor="middle">LightGBM</text>
+
+  <rect x="205" y="285" width="100" height="28" rx="14" fill="#4ECDC420" stroke="#4ECDC440" stroke-width="1"/>
+  <text x="255" y="304" font-family="system-ui, sans-serif" font-size="13" fill="#4ECDC4" text-anchor="middle">XGBoost</text>
+
+  <rect x="320" y="285" width="110" height="28" rx="14" fill="#45B7D120" stroke="#45B7D140" stroke-width="1"/>
+  <text x="375" y="304" font-family="system-ui, sans-serif" font-size="13" fill="#45B7D1" text-anchor="middle">HVAC 优化</text>
+
+  <rect x="445" y="285" width="110" height="28" rx="14" fill="#96CEB420" stroke="#96CEB440" stroke-width="1"/>
+  <text x="500" y="304" font-family="system-ui, sans-serif" font-size="13" fill="#96CEB4" text-anchor="middle">需求响应</text>
+
+  <!-- 建筑图标（右侧） -->
+  <rect x="750" y="60" width="450" height="250" rx="20" fill="url(#card1)" stroke="#FF6B6B20" stroke-width="1"/>
+  <text x="975" y="140" font-family="system-ui, sans-serif" font-size="64" text-anchor="middle">🏢</text>
+  <text x="975" y="200" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">支持多种建筑类型</text>
+  <text x="975" y="225" font-family="system-ui, sans-serif" font-size="12" fill="#64748b" text-anchor="middle">办公 · 住宅 · 工业 · 商场 · 医院</text>
+
+  <!-- 三个功能卡片 -->
+  <!-- 卡片1: 预测 -->
+  <rect x="80" y="350" width="340" height="240" rx="16" fill="url(#card1)" stroke="#FF6B6B20" stroke-width="1"/>
+  <text x="110" y="400" font-size="36">🔮</text>
+  <text x="110" y="435" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="white">能耗预测</text>
+  <text x="110" y="460" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">基于时间序列与多维特征的</text>
+  <text x="110" y="480" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">高精度能耗预测引擎</text>
+  <line x1="110" y1="500" x2="390" y2="500" stroke="#FF6B6B20" stroke-width="1"/>
+  <text x="110" y="525" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ LightGBM / XGBoost / RF</text>
+  <text x="110" y="548" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 72 小时滚动预测</text>
+  <text x="110" y="571" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 天气与时间特征工程</text>
+
+  <!-- 卡片2: 优化 -->
+  <rect x="470" y="350" width="340" height="240" rx="16" fill="url(#card2)" stroke="#4ECDC420" stroke-width="1"/>
+  <text x="500" y="400" font-size="36">⚡</text>
+  <text x="500" y="435" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="white">智能优化</text>
+  <text x="500" y="460" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">HVAC 系统运行策略优化，</text>
+  <text x="500" y="480" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">实现节能降费</text>
+  <line x1="500" y1="500" x2="780" y2="500" stroke="#4ECDC420" stroke-width="1"/>
+  <text x="500" y="525" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 启停策略优化</text>
+  <text x="500" y="548" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 削峰填谷调度</text>
+  <text x="500" y="571" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 需求响应评估</text>
+
+  <!-- 卡片3: 可视化 -->
+  <rect x="860" y="350" width="340" height="240" rx="16" fill="url(#card3)" stroke="#45B7D120" stroke-width="1"/>
+  <text x="890" y="400" font-size="36">📊</text>
+  <text x="890" y="435" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="white">可视化分析</text>
+  <text x="890" y="460" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">交互式数据分析与</text>
+  <text x="890" y="480" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8">报告生成功能</text>
+  <line x1="890" y1="500" x2="1170" y2="500" stroke="#45B7D120" stroke-width="1"/>
+  <text x="890" y="525" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ Streamlit 交互面板</text>
+  <text x="890" y="548" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 能耗热力图 & 趋势图</text>
+  <text x="890" y="571" font-family="system-ui, sans-serif" font-size="12" fill="#64748b">▸ 特征重要性分析</text>
+</svg>

@@ -1,0 +1,46 @@
+{
+  "buildings": [
+    {
+      "id": "bld_001",
+      "name": "上海中心大厦（办公模块）",
+      "type": "commercial_office",
+      "location": "Shanghai, China",
+      "area_sqm": 50000,
+      "floors": 30,
+      "year_built": 2015,
+      "hvac_type": "vrf_heat_pump",
+      "wall_material": "glass_curtain_wall_double",
+      "window_ratio": 0.65,
+      "occupancy_schedule": "office_9to6",
+      "baseline_eui_kwh_per_sqm": 120
+    },
+    {
+      "id": "bld_002",
+      "name": "上海住宅小区（标准层）",
+      "type": "residential",
+      "location": "Shanghai, China",
+      "area_sqm": 12000,
+      "floors": 18,
+      "year_built": 2020,
+      "hvac_type": "split_ac",
+      "wall_material": "concrete_insulation",
+      "window_ratio": 0.35,
+      "occupancy_schedule": "residential_evening",
+      "baseline_eui_kwh_per_sqm": 65
+    },
+    {
+      "id": "bld_003",
+      "name": "工业园区厂房",
+      "type": "industrial",
+      "location": "Suzhou, China",
+      "area_sqm": 80000,
+      "floors": 3,
+      "year_built": 2018,
+      "hvac_type": "central_chiller",
+      "wall_material": "steel_insulation",
+      "window_ratio": 0.15,
+      "occupancy_schedule": "factory_2shift",
+      "baseline_eui_kwh_per_sqm": 200
+    }
+  ]
+}
