@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="docs/banner.svg" width="100%" alt="Building Energy AI Optimizer Banner">
+  <img src="https://raw.githubusercontent.com/c50346867/building-energy-ai-optimizer/main/docs/banner.svg" width="100%" alt="Building Energy AI Optimizer Banner">
 </div>
 
 # 🏢 Building Energy AI Optimizer
@@ -23,11 +23,11 @@
 
 ### 🎯 核心价值
 
-- **🔮 精准预测** — 基于多维特征的 AI 能耗预测模型，R² > 0.92
-- **⚡ 智能优化** — HVAC 系统运行策略智能推荐，节能 15-30%
-- **💰 降本增效** — 削峰填谷 + 需求响应，降低电费 10-25%
-- **🌱 绿色低碳** — 精确计算碳减排量，助力碳中和目标
-- **📊 开箱即用** — 内置模拟数据生成器，无需真实数据即可体验
+- **🔮 AI 精准预测** — 基于 LightGBM/XGBoost 的建筑能耗机器学习预测模型，R² > 0.92
+- **⚡ AI 智能优化** — HVAC 系统运行策略智能推荐，节能 15-30%
+- **💰 降本增效** — AI 驱动的削峰填谷 + 需求响应策略，降低电费 10-25%
+- **🌱 绿色低碳** — AI 计算最优碳减排路径，助力碳中和目标
+- **📊 开箱即用** — 内置 AI 数据模拟器，无需真实数据即可体验
 
 ## 快速开始
 
